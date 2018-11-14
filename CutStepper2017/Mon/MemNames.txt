@@ -1,0 +1,35 @@
+Registers
+SEGMENTBASE $00
+$02	r2(SSREG)
+$03	r3(AFlags)
+$04	r4(BFlags)
+$05	r5(KS_Dead)
+$06	r6(KS_High)
+
+Yindexed VARS
+SEGMENTBASE $60
+.equ	yMainCntL	= $00
+.equ	yMainCntM	= $01
+.equ	yMainCntH	= $02
+.equ	yRXPointer	= $03
+.equ	yTXPointer	= $04
+.equ	yTXEnd		= $05
+.equ	yRXTimer	= $06
+.equ	yMyAddr		= $07
+.equ	yADCCurCh	= $08
+.equ	yADCSamCnt	= $09
+.equ	yADCSumL	= $0A
+.equ	yADCSumH	= $0B
+
+ADCBuf
+SEGMENTBASE $140
+$00	adcUL
+$01	adcUH
+$02	adcIL
+$03	adcIH
+
+KSBuf
+SEGMENTBASE $144
+$00	KS_Dead
+$01	KS_High
+$02	KS_Low

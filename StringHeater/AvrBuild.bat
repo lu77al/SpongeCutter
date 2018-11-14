@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "D:\GoogleDisk\Work\!_VALERA\Finishing\Previous\StringHeater\labels.tmp" -fI -W+ie -C V2E -o "D:\GoogleDisk\Work\!_VALERA\Finishing\Previous\StringHeater\StringHeater.hex" -d "D:\GoogleDisk\Work\!_VALERA\Finishing\Previous\StringHeater\StringHeater.obj" -e "D:\GoogleDisk\Work\!_VALERA\Finishing\Previous\StringHeater\StringHeater.eep" -m "D:\GoogleDisk\Work\!_VALERA\Finishing\Previous\StringHeater\StringHeater.map" "D:\GoogleDisk\Work\!_VALERA\Finishing\Previous\StringHeater\StringHeater.asm"

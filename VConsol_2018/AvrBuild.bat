@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "D:\GoogleDisk\Work\!_VALERA\Consol\VConsol_2018\labels.tmp" -fI -W+ie -C V2E -o "D:\GoogleDisk\Work\!_VALERA\Consol\VConsol_2018\VConsol_2018.hex" -d "D:\GoogleDisk\Work\!_VALERA\Consol\VConsol_2018\VConsol_2018.obj" -e "D:\GoogleDisk\Work\!_VALERA\Consol\VConsol_2018\VConsol_2018.eep" -m "D:\GoogleDisk\Work\!_VALERA\Consol\VConsol_2018\VConsol_2018.map" "D:\GoogleDisk\Work\!_VALERA\Consol\VConsol_2018\VConsol_2018.asm"
