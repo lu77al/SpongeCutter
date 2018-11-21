@@ -490,6 +490,8 @@ rct_4:	set
 StopCutting:
 	sbrs	AFlags,afCutting
 	ret
+	clt
+	bld	AFlags,afHeating	
 	stdi	yInitCutCnt,5
 	clt
 	bld	AFlags,afCutting

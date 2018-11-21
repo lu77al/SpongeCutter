@@ -112,7 +112,7 @@ ind2_1:	cpi	r24,2  // Line 2 -> show speed
 ind2_2:	cpi	r24,3  // Line 3 -> show object to move
 	brne	ind2_3
 	ldi	r16,$C3 // "À»—“"
-	sbrs	AFlags,afReverseY
+	sbrc	AFlags,afReverseY
 	ldi	r16,$C4 // "–≈«¿ "
 	rjmp	ExtMes
 ind2_3:

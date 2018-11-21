@@ -85,7 +85,7 @@ sk_BR1:
 	ldd	r18,Y+yMasterStCntH
 	or	r18,r17
 	or	r18,r16
-	breq	br2_1
+	breq	br2_2
 	sbis	PIND,4
 	rjmp	br2_1
 	cli
@@ -97,6 +97,9 @@ sk_BR1:
 	clt
 	bld	AFlags,afMoveLong
 	sei
+br2_2:	clt
+	bld	AFlags,afMoveLong
+	bld	AFlags,afStopOnHS
 br2_1:
 	rjmp	RetTact
 sk_BR2:
